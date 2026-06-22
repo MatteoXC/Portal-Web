@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    { "source": "/cursos/(.*)", "destination": "/index.html" },
+    { "source": "/asignaturas/(.*)", "destination": "/index.html" },
+    { "source": "/temas/(.*)", "destination": "/index.html" },
+    { "source": "/departamento", "destination": "/index.html" },
+    { "source": "/recursos", "destination": "/index.html" },
+    { "source": "/contacto", "destination": "/index.html" },
+    { "source": "/admin", "destination": "/index.html" },
+    { "source": "/admin/(.*)", "destination": "/index.html" }
+  ]
+}
