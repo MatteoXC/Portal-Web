@@ -335,5 +335,14 @@
       "tags": []
     }
   ],
-  "resources": []
+  "resources": [
+    {
+      "id": "302e4b0f-cd87-426d-acce-0322cd8e5b76",
+      "topic_id": "t1",
+      "name": "tema",
+      "url": "https://sites.google.com/d/1Baco9rev7f3wh43VgfKWrMDYb54Eg8Ep/p/1LWoMDku0On6rOkWIeV1av2phixEikJFa/edit",
+      "resource_type": "link",
+      "sort_order": 0
+    }
+  ]
 }
