@@ -1,0 +1,339 @@
+{
+  "courses": [
+    {
+      "id": "1eso",
+      "name": "1º ESO",
+      "slug": "1eso",
+      "sort_order": 1
+    },
+    {
+      "id": "2eso",
+      "name": "2º ESO",
+      "slug": "2eso",
+      "sort_order": 2
+    },
+    {
+      "id": "3eso",
+      "name": "3º ESO",
+      "slug": "3eso",
+      "sort_order": 3
+    },
+    {
+      "id": "4eso",
+      "name": "4º ESO",
+      "slug": "4eso",
+      "sort_order": 4
+    },
+    {
+      "id": "1bach",
+      "name": "1º Bachillerato",
+      "slug": "1bach",
+      "sort_order": 5
+    }
+  ],
+  "subjects": [
+    {
+      "id": "1eso-cyr1",
+      "course_id": "1eso",
+      "name": "Computación y Robótica I",
+      "slug": "1eso-cyr1",
+      "description": "",
+      "sort_order": 1
+    },
+    {
+      "id": "2eso-tyd1",
+      "course_id": "2eso",
+      "name": "Tecnología y Digitalización I",
+      "slug": "2eso-tyd1",
+      "description": "",
+      "sort_order": 2
+    },
+    {
+      "id": "2eso-cyr2",
+      "course_id": "2eso",
+      "name": "Computación y Robótica II",
+      "slug": "2eso-cyr2",
+      "description": "",
+      "sort_order": 3
+    },
+    {
+      "id": "3eso-tyd2",
+      "course_id": "3eso",
+      "name": "Tecnología y Digitalización II",
+      "slug": "3eso-tyd2",
+      "description": "",
+      "sort_order": 4
+    },
+    {
+      "id": "3eso-cyr3",
+      "course_id": "3eso",
+      "name": "Computación y Robótica III",
+      "slug": "3eso-cyr3",
+      "description": "",
+      "sort_order": 5
+    },
+    {
+      "id": "4eso-tech",
+      "course_id": "4eso",
+      "name": "Tecnología",
+      "slug": "4eso-tech",
+      "description": "",
+      "sort_order": 6
+    },
+    {
+      "id": "4eso-digi",
+      "course_id": "4eso",
+      "name": "Digitalización",
+      "slug": "4eso-digi",
+      "description": "",
+      "sort_order": 7
+    },
+    {
+      "id": "4eso-ap",
+      "course_id": "4eso",
+      "name": "Ámbito Práctico",
+      "slug": "4eso-ap",
+      "description": "",
+      "sort_order": 8
+    },
+    {
+      "id": "1bach-tei",
+      "course_id": "1bach",
+      "name": "Tecnología e Ingeniería I",
+      "slug": "1bach-tei",
+      "description": "",
+      "sort_order": 9
+    },
+    {
+      "id": "1bach-tic1",
+      "course_id": "1bach",
+      "name": "T.I.C I",
+      "slug": "1bach-tic1",
+      "description": "",
+      "sort_order": 10
+    }
+  ],
+  "topics": [
+    {
+      "id": "t1",
+      "subject_id": "1eso-cyr1",
+      "title": "Introducción a la programación",
+      "topic_number": 1,
+      "description": "Primeros pasos con programación visual por bloques.",
+      "content": "<h2>Introducción a la programación</h2>\n<p>La programación por bloques permite crear programas arrastrando y conectando bloques visuales, sin necesidad de escribir código.</p>\n<h3>Herramientas</h3>\n<ul>\n<li><strong>Scratch:</strong> Plataforma de programación visual del MIT.</li>\n<li><strong>mBlock:</strong> Basado en Scratch, con soporte para Arduino.</li>\n<li><strong>MakeCode:</strong> Para micro:bit y otros dispositivos.</li>\n</ul>",
+      "video_url": "",
+      "sort_order": 1,
+      "tags": []
+    },
+    {
+      "id": "t2",
+      "subject_id": "1eso-cyr1",
+      "title": "Robótica básica",
+      "topic_number": 2,
+      "description": "Componentes de un robot y primeros montajes.",
+      "content": "<h2>Robótica básica</h2>\n<p>Un robot es una máquina programable capaz de realizar tareas de forma autónoma o semiautónoma.</p>\n<h3>Componentes de un robot</h3>\n<ul>\n<li><strong>Sensores:</strong> Permiten al robot percibir el entorno.</li>\n<li><strong>Actuadores:</strong> Motores y servomotores que permiten el movimiento.</li>\n<li><strong>Controlador:</strong> El \"cerebro\" del robot (Arduino, micro:bit...).</li>\n</ul>",
+      "video_url": "",
+      "sort_order": 2,
+      "tags": []
+    },
+    {
+      "id": "t3",
+      "subject_id": "2eso-tyd1",
+      "title": "Estructuras",
+      "topic_number": 1,
+      "description": "Tipos de estructuras y esfuerzos.",
+      "content": "<h2>Estructuras</h2>\n<p>Una estructura es un conjunto de elementos unidos entre sí cuya función es soportar cargas sin deformarse ni romperse.</p>\n<h3>Tipos de esfuerzos</h3>\n<ul>\n<li><strong>Tracción:</strong> Fuerzas que estiran el material.</li>\n<li><strong>Compresión:</strong> Fuerzas que comprimen el material.</li>\n<li><strong>Flexión:</strong> Combinación de tracción y compresión.</li>\n<li><strong>Torsión:</strong> Fuerzas de giro.</li>\n</ul>",
+      "video_url": "",
+      "sort_order": 1,
+      "tags": []
+    },
+    {
+      "id": "t4",
+      "subject_id": "2eso-tyd1",
+      "title": "Mecanismos",
+      "topic_number": 2,
+      "description": "Máquinas simples y mecanismos de transmisión.",
+      "content": "<h2>Mecanismos</h2>\n<p>Los mecanismos son elementos que transforman o transmiten el movimiento dentro de una máquina.</p>\n<h3>Tipos de mecanismos</h3>\n<ul>\n<li><strong>Palancas:</strong> Barra rígida que gira sobre un punto de apoyo.</li>\n<li><strong>Poleas:</strong> Ruedas acanaladas por las que pasa una cuerda.</li>\n<li><strong>Engranajes:</strong> Ruedas dentadas que transmiten movimiento circular.</li>\n</ul>",
+      "video_url": "",
+      "sort_order": 2,
+      "tags": []
+    },
+    {
+      "id": "t5",
+      "subject_id": "2eso-cyr2",
+      "title": "Programación con Scratch avanzado",
+      "topic_number": 1,
+      "description": "Proyectos interactivos y juegos con Scratch.",
+      "content": "<h2>Programación con Scratch avanzado</h2>\n<p>En este nivel trabajaremos con variables, listas y eventos para crear proyectos más complejos como juegos interactivos.</p>",
+      "video_url": "",
+      "sort_order": 1,
+      "tags": []
+    },
+    {
+      "id": "t6",
+      "subject_id": "2eso-cyr2",
+      "title": "Robótica con Arduino",
+      "topic_number": 2,
+      "description": "Introducción a Arduino y sensores básicos.",
+      "content": "<h2>Robótica con Arduino</h2>\n<p>Arduino es una plataforma de hardware libre que permite crear proyectos interactivos de electrónica y robótica.</p>",
+      "video_url": "",
+      "sort_order": 2,
+      "tags": []
+    },
+    {
+      "id": "t7",
+      "subject_id": "3eso-tyd2",
+      "title": "Electricidad y circuitos",
+      "topic_number": 1,
+      "description": "Fundamentos de electricidad y circuitos eléctricos.",
+      "content": "<h2>Electricidad y circuitos</h2>\n<p>La electricidad es una forma de energía producida por el movimiento de electrones a través de un conductor.</p>\n<h3>Ley de Ohm</h3>\n<p><strong>V = I × R</strong></p>",
+      "video_url": "",
+      "sort_order": 1,
+      "tags": []
+    },
+    {
+      "id": "t8",
+      "subject_id": "3eso-tyd2",
+      "title": "Electrónica analógica",
+      "topic_number": 2,
+      "description": "Componentes electrónicos básicos.",
+      "content": "<h2>Electrónica analógica</h2>\n<p>La electrónica analógica trabaja con señales continuas. Los componentes básicos incluyen resistencias, condensadores, diodos y transistores.</p>",
+      "video_url": "",
+      "sort_order": 2,
+      "tags": []
+    },
+    {
+      "id": "t9",
+      "subject_id": "3eso-cyr3",
+      "title": "Programación textual",
+      "topic_number": 1,
+      "description": "Introducción a Python y programación con texto.",
+      "content": "<h2>Programación textual</h2>\n<p>Python es un lenguaje de programación versátil y fácil de aprender, ideal para dar el salto desde la programación por bloques.</p>",
+      "video_url": "",
+      "sort_order": 1,
+      "tags": []
+    },
+    {
+      "id": "t10",
+      "subject_id": "3eso-cyr3",
+      "title": "Proyectos de robótica avanzada",
+      "topic_number": 2,
+      "description": "Diseño y programación de robots autónomos.",
+      "content": "<h2>Proyectos de robótica avanzada</h2>\n<p>Diseño, construcción y programación de robots capaces de seguir líneas, evitar obstáculos y resolver laberintos.</p>",
+      "video_url": "",
+      "sort_order": 2,
+      "tags": []
+    },
+    {
+      "id": "t11",
+      "subject_id": "4eso-tech",
+      "title": "Electrónica digital",
+      "topic_number": 1,
+      "description": "Puertas lógicas y circuitos digitales.",
+      "content": "<h2>Electrónica digital</h2>\n<p>La electrónica digital trabaja con señales discretas (0 y 1). Las puertas lógicas son los elementos básicos de los circuitos digitales.</p>",
+      "video_url": "",
+      "sort_order": 1,
+      "tags": []
+    },
+    {
+      "id": "t12",
+      "subject_id": "4eso-tech",
+      "title": "Control y automatización",
+      "topic_number": 2,
+      "description": "Programación de Arduino y automatización.",
+      "content": "<h2>Control y automatización</h2>\n<p>Arduino permite crear sistemas de control automático para domótica, robótica y procesos industriales.</p>",
+      "video_url": "",
+      "sort_order": 2,
+      "tags": []
+    },
+    {
+      "id": "t13",
+      "subject_id": "4eso-digi",
+      "title": "Seguridad informática",
+      "topic_number": 1,
+      "description": "Protección de datos y navegación segura.",
+      "content": "<h2>Seguridad informática</h2>\n<p>La seguridad informática protege la información y los sistemas contra accesos no autorizados, daños o robos.</p>",
+      "video_url": "",
+      "sort_order": 1,
+      "tags": []
+    },
+    {
+      "id": "t14",
+      "subject_id": "4eso-digi",
+      "title": "Publicación web",
+      "topic_number": 2,
+      "description": "HTML, CSS y creación de páginas web.",
+      "content": "<h2>Publicación web</h2>\n<p>HTML y CSS son los lenguajes fundamentales para la creación de páginas web.</p>",
+      "video_url": "",
+      "sort_order": 2,
+      "tags": []
+    },
+    {
+      "id": "t15",
+      "subject_id": "4eso-ap",
+      "title": "El proceso tecnológico",
+      "topic_number": 1,
+      "description": "Metodología de proyectos tecnológicos.",
+      "content": "<h2>El proceso tecnológico</h2>\n<p>Aplicación del método de proyectos para resolver problemas tecnológicos de forma práctica e integrada.</p>",
+      "video_url": "",
+      "sort_order": 1,
+      "tags": []
+    },
+    {
+      "id": "t16",
+      "subject_id": "4eso-ap",
+      "title": "Materiales y fabricación",
+      "topic_number": 2,
+      "description": "Técnicas de mecanizado y materiales.",
+      "content": "<h2>Materiales y fabricación</h2>\n<p>Estudio de materiales de uso técnico y técnicas de fabricación en el taller de tecnología.</p>",
+      "video_url": "",
+      "sort_order": 2,
+      "tags": []
+    },
+    {
+      "id": "t17",
+      "subject_id": "1bach-tei",
+      "title": "Energías",
+      "topic_number": 1,
+      "description": "Fuentes de energía y sostenibilidad.",
+      "content": "<h2>Energías</h2>\n<p>Las fuentes de energía se clasifican en renovables (solar, eólica, hidráulica) y no renovables (petróleo, gas natural, carbón).</p>",
+      "video_url": "",
+      "sort_order": 1,
+      "tags": []
+    },
+    {
+      "id": "t18",
+      "subject_id": "1bach-tei",
+      "title": "Sistemas mecánicos avanzados",
+      "topic_number": 2,
+      "description": "Cinemática y dinámica de mecanismos.",
+      "content": "<h2>Sistemas mecánicos avanzados</h2>\n<p>Estudio de la cinemática y dinámica aplicada a mecanismos complejos: trenes de engranajes, levas y sistemas articulados.</p>",
+      "video_url": "",
+      "sort_order": 2,
+      "tags": []
+    },
+    {
+      "id": "t19",
+      "subject_id": "1bach-tic1",
+      "title": "Sistemas informáticos",
+      "topic_number": 1,
+      "description": "Hardware, software y redes de comunicación.",
+      "content": "<h2>Sistemas informáticos</h2>\n<p>Un sistema informático está compuesto por hardware (componentes físicos) y software (programas y datos).</p>",
+      "video_url": "",
+      "sort_order": 1,
+      "tags": []
+    },
+    {
+      "id": "t20",
+      "subject_id": "1bach-tic1",
+      "title": "Ofimática y productividad",
+      "topic_number": 2,
+      "description": "Herramientas ofimáticas y trabajo colaborativo.",
+      "content": "<h2>Ofimática y productividad</h2>\n<p>Uso avanzado de herramientas de procesador de textos, hojas de cálculo, presentaciones y trabajo en la nube.</p>",
+      "video_url": "",
+      "sort_order": 2,
+      "tags": []
+    }
+  ],
+  "resources": []
+}
