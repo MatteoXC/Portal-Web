@@ -1,8 +1,8 @@
-import { requireAuthentication } from "./_lib/auth";
-import { readContentFromGitHub, writeContentToGitHub } from "./_lib/github";
-import { handleApiError, HttpError, readJsonBody, sendJson } from "./_lib/http";
-import type { ApiRequest, ApiResponse } from "./_lib/http";
-import { isContentData } from "../shared/content";
+import { requireAuthentication } from "./_lib/auth.js";
+import { readContentFromGitHub, writeContentToGitHub } from "./_lib/github.js";
+import { handleApiError, HttpError, readJsonBody, sendJson } from "./_lib/http.js";
+import type { ApiRequest, ApiResponse } from "./_lib/http.js";
+import { isContentData } from "../shared/content.js";
 
 export default async function handler(request: ApiRequest, response: ApiResponse) {
   try {

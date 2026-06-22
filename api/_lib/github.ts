@@ -1,6 +1,6 @@
-import { HttpError } from "./http";
-import { isContentData } from "../../shared/content";
-import type { ContentData } from "../../shared/content";
+import { HttpError } from "./http.js";
+import { isContentData } from "../../shared/content.js";
+import type { ContentData } from "../../shared/content.js";
 
 interface GitHubFile {
   content: string;

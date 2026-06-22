@@ -1,6 +1,6 @@
-import { isAuthenticated } from "../_lib/auth";
-import { handleApiError, sendJson } from "../_lib/http";
-import type { ApiRequest, ApiResponse } from "../_lib/http";
+import { isAuthenticated } from "../_lib/auth.js";
+import { handleApiError, sendJson } from "../_lib/http.js";
+import type { ApiRequest, ApiResponse } from "../_lib/http.js";
 
 export default function handler(request: ApiRequest, response: ApiResponse) {
   if (request.method !== "GET") {

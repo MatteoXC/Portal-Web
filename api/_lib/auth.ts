@@ -1,6 +1,6 @@
 import { createHash, createHmac, timingSafeEqual } from "node:crypto";
-import type { ApiRequest } from "./http";
-import { HttpError, parseCookies } from "./http";
+import type { ApiRequest } from "./http.js";
+import { HttpError, parseCookies } from "./http.js";
 
 export const SESSION_COOKIE = "portal_edu_admin";
 

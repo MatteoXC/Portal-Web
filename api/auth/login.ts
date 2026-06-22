@@ -1,6 +1,6 @@
-import { createSessionCookie, verifyPassword } from "../_lib/auth";
-import { handleApiError, HttpError, readJsonBody, sendJson } from "../_lib/http";
-import type { ApiRequest, ApiResponse } from "../_lib/http";
+import { createSessionCookie, verifyPassword } from "../_lib/auth.js";
+import { handleApiError, HttpError, readJsonBody, sendJson } from "../_lib/http.js";
+import type { ApiRequest, ApiResponse } from "../_lib/http.js";
 
 export default async function handler(request: ApiRequest, response: ApiResponse) {
   if (request.method !== "POST") {
